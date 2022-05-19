@@ -53,3 +53,4 @@
 ## Expected
 
 - Renovate would raise a PR updating `rubocop` to `1.29.0`.
+- My local nexus shows the gem available at: <http://localhost:8081/service/rest/repository/browse/gems/rubocop/1.29.0/>.
