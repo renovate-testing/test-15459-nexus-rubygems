@@ -2,4 +2,4 @@
 
 source "http://localhost:8081/repository/gems/"
 
-gem "rubocop", "1.29.0"
+gem "rubocop", "1.28.1"
