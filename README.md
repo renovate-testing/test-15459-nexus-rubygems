@@ -2,7 +2,7 @@
 
 ## Running Nexus locally
 
-Follow these instructions: <https://guides.sonatype.com/repo3/quick-start-guides/proxying-maven-and-npm/>.
+Follow the first part of these instructions: <https://guides.sonatype.com/repo3/quick-start-guides/proxying-maven-and-npm/>.
 
 Essentially it's:
 
