@@ -18,6 +18,7 @@ Essentially it's:
 - Wait a minute for it to appear at <http://localhost:8081>.
 - Follow the instructions to sign in as `admin` with the password in the file.
 - 'Create repository' -> pick 'proxy' -> Name: 'gems', URL: 'https://rubygems.org/'
+- `bundle install`
 - Add `config.json`, run
 
     ```shell
