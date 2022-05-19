@@ -1,5 +1,30 @@
 # renovate-minimal-reproduction-nexus-rubygems
 
+## Running Nexus locally
+
+Follow these instructions: <https://guides.sonatype.com/repo3/quick-start-guides/proxying-maven-and-npm/>.
+
+Essentially it's:
+
+- Go here: <https://www.sonatype.com/products/repository-oss-download>.
+- Input some information to get a download.
+- Unzip the download somewhere and then run:
+
+    ```shell
+    cd <downloaded_folder>/nexus
+    ./bin/nexus start
+    ```
+
+- Wait a minute for it to appear at <http://localhost:8081>.
+- Follow the instructions to sign in as `admin` with the password in the file.
+- 'Create repository' -> pick 'proxy' -> Name: 'gems', URL: 'https://rubygems.org/'
+- Add `config.json`, run
+
+    ```shell
+    npm install -g renovate
+    RENOVATE_CONFIG_FILE=config.json LOG_LEVEL=debug renovate
+    ```
+
 ## Current
 
 - The dependency lookup fails and Renovate does not raise a PR to update the dependency.
