@@ -2,4 +2,4 @@
 
 source "http://localhost:8081/repository/rubygems/"
 
-gem "faker", "3.0.0"
+gem "faker", "3.2.0"
