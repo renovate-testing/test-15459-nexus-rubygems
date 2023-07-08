@@ -2,4 +2,4 @@
 
 source "http://localhost:8081/repository/rubygems/"
 
-gem "rubocop", "1.28.1"
+gem "faker", "3.0.0"
